@@ -1,1 +1,10 @@
 Adiabatic bath, 79% N2 / 21% O2, Ttrn(0)=Trot(0)=15,000 K, Tvib(0)=300 K
+
+jpeg files are figures that compare some of the submitted results
+Other files are results submitted by contributors. The first letters indicate who submitted the results:
+* B - Arnaud Borner (Sparta DSMC code)
+* C - Ross Chaudhry (Navier-Stokes code)
+* GW - Sergey Gimelshein and Ingrid Wysong (SMILE DSMC code)
+* KK - Olga Kunova and Elena Kustova (STS code)
+* TL - Ozgur Tumuklu and Deborah Levin (SMILE DSMC code)
+
