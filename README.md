@@ -1,2 +1,8 @@
 # 0D-Cases
-Contribution by Drs. Arnaud Borner, Ozgur Tumuklu & Deborah Levin, and Ross Chaudhry, who submitted their DSMC results for TC 1.A, is greatly appreciated.
+Contributions by 
+* Dr. Arnaud Borner
+* Drs. Ozgur Tumuklu & Deborah Levin
+* Dr. Ross Chaudhry
+* Drs. Elena Kustova & Olga Kunova
+* Ms. Catarina Garbacz & Dr. Marco Fossati
+are greatly appreciated
