@@ -6,4 +6,4 @@ Contributions by
 * Drs. Elena Kustova & Olga Kunova
 * Ms. Catarina Garbacz & Dr. Marco Fossati
 
-are greatly appreciated
+are greatly appreciated.
