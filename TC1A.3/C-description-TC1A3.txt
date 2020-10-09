@@ -1,0 +1,37 @@
+Package for HyNECC: TC A3
+Ross Chaudhry
+June 18, 2020
+
+The prescribed initial conditions are:
+ - Ttr=15,000 K
+ - Tv =   300 K
+ - Total number density 1e25 part/m3
+ - Initially 79% N2 and 21% O2 by concentration
+   (corresponds to 0.47907105936 kg/m3 with initial mass fractions of
+   0.76708248854 and 0.23291751145 for N2 and O2)
+
+Some choices made for this case:
+ - Timestep is 1e-11 s to overresolve all processes, for the best comparison to other methods
+ - Total time of 1 us yields essentially chemical equilibrium
+ - Recombination is on and Zeldovich reactions have both the forward and backward processes enabled
+
+-- Note on electronic energy
+For a realistic CFD case at these (or similar) conditions, the specific heats would
+   be set to include electronic energy excitation.
+However, most of the other methods that this set is expected to be compared to
+   may not be able to incorporate the effect of electronic specific heat.
+Therefore, two sets of cases are included:
+ - withEE includes the specific heat due to electronic energy included;
+   the NASA Lewis polynomial fits describe the vibrational-electronic energy.
+ - withoutEE does not include the specific heat due to electronic energy;
+   an SHO approximation is used to describe the vibrational energy as function of temperature.
+This choice does not directly affect the chemical kinetics calculation.
+
+Two chemical kinetics models are used:
+ - Standard Park (90 book, for example)
+ - Modified Marrone-Treanor model with constant non-Boltzmann correction (MMT-NB),
+   the best reference for this is currently Chaudhry's Scitech 2020 paper (AIAA 2020-2191)
+
+A few notes about the MMT-NB model:
+ - The correction factor of eta=16/3 is *not* applied to the O2+O dissociation rate
+
