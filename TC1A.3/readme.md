@@ -2,7 +2,7 @@ Adiabatic bath, 79% N2 / 21% O2, Ttrn(0)=Trot(0)=15,000 K, Tvib(0)=300 K
 
 jpeg files are figures that compare some of the submitted results
 Other files are results submitted by contributors. The first letters indicate who submitted the results:
-* AF - Daniil Andrienko and Aleksander Fangman (Master equations with QCT rates)
+* AF - Daniil Andrienko and Alexander Fangman (Master equations with QCT rates)
 * B - Arnaud Borner (Sparta DSMC code)
 * C - Ross Chaudhry (Navier-Stokes code)
 * GF - Catarina Garbacz and Marco Fossati
