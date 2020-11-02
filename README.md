@@ -6,5 +6,6 @@ Contributions by
 * Dr. D. Andrienko and Mr. A. Fangman
 * Drs. Elena Kustova & Olga Kunova
 * Ms. Catarina Garbacz & Dr. Marco Fossati
+* Dr. Kyle Hanquist
 
 are greatly appreciated.
