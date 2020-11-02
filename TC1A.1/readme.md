@@ -5,7 +5,8 @@ Other files are results submitted by contributors. The first letters indicate wh
 * AF - Daniil Andrienko and Alexander Fangman (Master equations with QCT rates)
 * B - Arnaud Borner (Sparta DSMC code)
 * C - Ross Chaudhry (Navier-Stokes code)
-* GF - Catarina Garbacz and Marco Fossati
+* GF - Catarina Garbacz and Marco Fossati (SU2-NEMO code)
 * GW - Sergey Gimelshein and Ingrid Wysong (SMILE DSMC code)
+* KH - Kyle Hanquist (Le MANS code)
 * KK - Olga Kunova and Elena Kustova (STS code)
 * TL - Ozgur Tumuklu and Deborah Levin (SMILE DSMC code)
